@@ -49,3 +49,9 @@ int GetTop(Stack &s, ElemType &e) {
 	return OK;
 
 }
+
+int ClearStack(Stack &s) {
+	ElemType e;
+	while (!StackEmpty(s)) { Pop(s, e); }
+	return OK;
+}
