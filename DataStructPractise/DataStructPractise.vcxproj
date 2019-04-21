@@ -156,6 +156,7 @@
     <ClCompile Include="DataStructPractise.cpp" />
     <ClCompile Include="LineEdit.cpp" />
     <ClCompile Include="LinkStack.cpp" />
+    <ClCompile Include="Maze.cpp" />
     <ClCompile Include="parenthesisMatch.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

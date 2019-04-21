@@ -12,3 +12,6 @@ typedef struct {
 
 }SElemType;
 
+void MazePath() {
+	char a[10][10] = {0};
+}

@@ -56,6 +56,9 @@
     <ClCompile Include="LineEdit.cpp">
       <Filter>源文件\Stack\test</Filter>
     </ClCompile>
+    <ClCompile Include="Maze.cpp">
+      <Filter>源文件\Stack\test</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="notebook.md">
