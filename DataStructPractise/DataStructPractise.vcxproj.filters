@@ -50,10 +50,10 @@
     <ClCompile Include="LinkStack.cpp">
       <Filter>源文件\Stack\LinkStack</Filter>
     </ClCompile>
-    <ClCompile Include="conversion.cpp">
+    <ClCompile Include="parenthesisMatch.cpp">
       <Filter>源文件\Stack\test</Filter>
     </ClCompile>
-    <ClCompile Include="parenthesisMatch.cpp">
+    <ClCompile Include="LineEdit.cpp">
       <Filter>源文件\Stack\test</Filter>
     </ClCompile>
   </ItemGroup>
