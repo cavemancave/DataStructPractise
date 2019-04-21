@@ -13,6 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\Stack">
+      <UniqueIdentifier>{1f49676e-a3a1-4515-b716-c21a689dba25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Stack\LinkStack">
+      <UniqueIdentifier>{e88cafe6-fc31-4027-98d4-fe951d777268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Stack">
+      <UniqueIdentifier>{7ae15d83-a25d-40fe-aeec-fa76d54629ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Stack\LinkStack">
+      <UniqueIdentifier>{d7654c13-d4b4-4bf1-943e-21266916b529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Stack\test">
+      <UniqueIdentifier>{ef99a8f6-8436-4975-9eca-2c2aa1db5339}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -22,7 +37,7 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="LinkStack.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\Stack\LinkStack</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -33,7 +48,13 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="LinkStack.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Stack\LinkStack</Filter>
+    </ClCompile>
+    <ClCompile Include="conversion.cpp">
+      <Filter>源文件\Stack\test</Filter>
+    </ClCompile>
+    <ClCompile Include="parenthesisMatch.cpp">
+      <Filter>源文件\Stack\test</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
